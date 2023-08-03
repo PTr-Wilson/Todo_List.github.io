@@ -1,5 +1,5 @@
 - The file server.js is used to write API.
-- The file server.js is used to write APIs.
+- The images describing the functions are stored in the img file.
 - Turn on the terminal and run the command: "node server.js".
 
 
