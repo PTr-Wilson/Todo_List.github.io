@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Todo List</h1>
+      
+      <div class="tasks-and-filters">
+        <div class="task-status">
+            <div class="completed-tasks">
+                Completed Tasks: <span id="completedCount">0</span>
+            </div>
+            <div class="remaining-tasks">
+              Incomplete Tasks: <span id="incompleteCount">0</span>
+            </div>
+        </div>
+        <div class="filters">
+            <label for="taskFilter" style="color: white;">Filter: </label>
+            <select id="taskFilter" class="filter-select">
+                <option value="all">All</option>
+                <option value="completed">Completed Tasks</option>
+                <option value="incomplete">Incomplete Tasks</option>
+            </select>
+        </div>
+    </div>
+
+     
+
+      <input type="text" id="taskInput" placeholder="Enter task name" />
+      <button id="addTaskBtn">Add Task</button>
+      <ul id="taskList"></ul>
+    </div>
+
+    <script type="text/javascript" src="javascript.js"></script>
+  </body>
+</html>
