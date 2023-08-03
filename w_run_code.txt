@@ -1,5 +1,0 @@
-Turn on the terminal and run the command: "node server.js".
-
-
-
-

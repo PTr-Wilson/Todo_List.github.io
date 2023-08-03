@@ -1,0 +1,7 @@
+- The file server.js is used to write API.
+- The file server.js is used to write APIs.
+- Turn on the terminal and run the command: "node server.js".
+
+
+
+
